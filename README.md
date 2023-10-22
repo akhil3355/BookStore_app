@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MERN Book Store App
 Description
 This is a MERN (MongoDB, Express, React, Node.js) project with additional technologies including Tailwind CSS and Vite. It serves as a refresher for MERN tech and demonstrates the integration of these technologies for a basic book store application. The app allows users to store book details, update them, and perform CRUD operations.
@@ -35,3 +36,7 @@ This project is open-source and available under the MIT License.
 Contact
 AKHIL T
 Project Link: https://github.com/akhil3355/BookStore_app.git
+=======
+This is a Bookstore application built with MERN stack
+
+> > > > > > > 2cfb4135b56cc8d3a136d46d0cbb2b7e12b8b5c4
