@@ -35,48 +35,76 @@ This is a bookstore application built using the MERN (MongoDB, Express.js, React
   - **Axios:** HTTP client for making API requests.
   - **Notistack:** Snackbar library for displaying messages.
 - **Node.js:** Server-side runtime environment.
-- **Bootstrap:** Frontend styling for a responsive design.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js and npm installed.
-- MongoDB installed and running.
+- MongoDB atlas account.
 
-### Installation
+### Backend Configuration
+
+1. **Set up `config.js`:**
+
+   Inside the `backend` folder, locate the `config.js` file.
+
+2. **Configure `config.js`:**
+
+   Open `config.js` and set the `PORT` and `mongoDBURL` to your desired values.
+
+   ```javascript
+   // server/config.js
+
+   module.exports = {
+     PORT: 5000, // Set your preferred port
+     mongoDBURL: "your_mongodb_connection_string", // Set your MongoDB connection string
+   };
+   ```
+
+1## Installation
 
 1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/bookstore-app.git
    cd bookstore-app
-
    ```
 
-# Install server dependencies
+2. # Install server dependencies
 
-cd server
-npm install
+```bash
+   cd backend
+   npm install
+```
 
-# Install client dependencies
+3. # Install client dependencies
 
-cd ../client
-npm install
+```bash
+   cd frontend
+   npm install
+```
 
-set the config file.
+4. # Run the backend
 
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
+```bash
+   cd ../backend
+   npm run dev
+```
 
-# Run the server
+5. # Run the frontend
 
-cd ../server
-npm start
+```bash
+   cd ../client
+   npm run dev
+```
 
-# Run the client
+## Contributing
 
-cd ../client
-npm run dev
+Feel free to contribute by opening issues or submitting pull requests. Follow the [contributing guidelines](CONTRIBUTING.md).
 
-You can copy this content and paste it into your text editor.
+## Contact
+
+For questions or support, contact me at [akhilthiruthiyottil@gmail.com].
+
+---
