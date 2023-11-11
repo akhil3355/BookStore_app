@@ -54,5 +54,5 @@ This project is open-source and available under the MIT License.
 
 ## Contact
 
-Your Name
+Akhil T
 [Project Link: GitHub Repository](https://github.com/akhil3355/BookStore_app)
